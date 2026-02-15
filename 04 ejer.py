@@ -13,4 +13,4 @@ def passarAPalotes(numero: int) -> str:
 # Programa principal per provar la funció
 if __name__ == "__main__":
     numero = 470213
-    print(f"{numero} en palotes és: {passarAPalotes(numero)}")
+    print(f"{numero} En palotes és: {passarAPalotes(numero)}")
