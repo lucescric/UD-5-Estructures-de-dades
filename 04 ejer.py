@@ -1,18 +1,4 @@
 def passarAPalotes(numero: int) -> str:
-    # Convertim el número a cadena per poder recórrer cada dígit
-    digits = str(numero)
-    resultat = []
-
-    for d in digits:
-        valor = int(d)
-        palotes = "|" * valor
-        resultat.append(palotes)
-
-    # Unim els grups amb guions
-    return "-".join(resultat)
-
-
-def passarAPalotes(numero: int) -> str:
     digits = str(numero)
     resultat = []
 
